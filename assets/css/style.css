@@ -202,7 +202,6 @@ footer {
 @media screen and (max-width: 768px) {
 
   body {
-    background-color: black;
   }
 
   header {
@@ -232,43 +231,57 @@ footer {
   #AboutBox {
     width: 50%;
     padding: 30px;
+    margin-left: 8%;
   }
 
   #PortfolioBox {
     width: 50%;
     padding: 30px;
+    margin-left: 8%;
   }
 
   #ContactBox {
     width: 50%;
     padding: 30px;
+    margin-left: 8%;
   }
 
   #ConnectBox {
     width: 50%;
     position: relative;
+    margin-left: 8%;
   }
 }
 
 @media screen and (max-width: 640px) {
 
   body {
-    background-color: black;
   }
 
   header {
     width: 100%;
+    position: static;
+    border-bottom: 0%;
+    height: 35px;
   }
 
   #Name {
-    width: 100%;
+    width: 110%;
     text-align: center;
     font-size: 120%;
+    position: relative;
+    top: -75%;
+    left: -5%;
+    margin-bottom: 27px;
+    margin-top: -28px;
   }
 
   nav {
     width: 50%;
     font-size: 60%;
+    text-align: center;
+    position: relative;
+    right: 24%;
   }
 
   a {
@@ -277,6 +290,9 @@ footer {
 
   h1 {
     font-size: 120%;
+  }
+
+  #BodyMain {
   }
 
   #AboutBox {
